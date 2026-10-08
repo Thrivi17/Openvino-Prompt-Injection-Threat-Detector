@@ -32,6 +32,16 @@ To ensure comprehensive protection against sophisticated adversarial inputs, inc
 
 ---
 
+##  Local Installation and Setup
+
+git clone [https://github.com/YourUsername/Openvino-Prompt-Injection-Threat-Detector.git](https://github.com/YourUsername/Openvino-Prompt-Injection-Threat-Detector.git)
+cd Openvino-Prompt-Injection-Threat-Detector
+
+Bash: python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+---
+
 ##  Project Structure
 
 ```text
@@ -40,13 +50,7 @@ Openvino-Prompt-Injection-Threat-Detector/
 ├── requirements.txt      # Project dependencies and acceleration libraries
 └── README.md             # Project documentation
 
-## Local Installation and Setup
 
-git clone [https://github.com/YourUsername/Openvino-Prompt-Injection-Threat-Detector.git](https://github.com/YourUsername/Openvino-Prompt-Injection-Threat-Detector.git)
-cd Openvino-Prompt-Injection-Threat-Detector
-
-Bash: python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Bash: streamlit run app.py
 
