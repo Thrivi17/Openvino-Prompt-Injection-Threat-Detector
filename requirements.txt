@@ -1,0 +1,7 @@
+torch
+openvino
+optimum-intel
+optimum
+transformers
+huggingface-hub
+streamlit
