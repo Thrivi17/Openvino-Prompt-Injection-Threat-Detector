@@ -46,9 +46,11 @@ Bash: streamlit run app.py
 
 ```text
 Openvino-Prompt-Injection-Threat-Detector/
-├── app.py                # Main Streamlit application and security pipeline
-├── requirements.txt      # Project dependencies and acceleration libraries
-└── README.md             # Project documentation
+├── original_code/          # Original Jupyter notebooks and experimental prototyping
+│   └── notebook.ipynb      # Initial model exploration and testing
+├── app.py                  # Main Streamlit application and security pipeline
+├── requirements.txt        # Project dependencies and acceleration libraries
+└── README.md               # Project documentation
 
 
 
