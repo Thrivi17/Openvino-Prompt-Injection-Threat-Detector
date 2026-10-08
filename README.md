@@ -36,9 +36,9 @@ To ensure comprehensive protection against sophisticated adversarial inputs, inc
 
 git clone [https://github.com/YourUsername/Openvino-Prompt-Injection-Threat-Detector.git](https://github.com/YourUsername/Openvino-Prompt-Injection-Threat-Detector.git)
 cd Openvino-Prompt-Injection-Threat-Detector
-
 Bash: python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 
 ##  Project Structure
 
