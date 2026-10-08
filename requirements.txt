@@ -1,7 +1,7 @@
-torch
-openvino
-optimum-intel
-optimum
-transformers
-huggingface-hub
-streamlit
+torch>=2.0.0
+transformers>=4.38.0
+optimum>=1.16.0
+optimum-intel>=1.14.0
+openvino>=2024.0.0
+huggingface-hub>=0.20.0
+streamlit>=1.32.0
