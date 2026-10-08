@@ -39,6 +39,8 @@ cd Openvino-Prompt-Injection-Threat-Detector
 Bash: python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
+Bash: streamlit run app.py
+
 
 ##  Project Structure
 
@@ -49,8 +51,6 @@ Openvino-Prompt-Injection-Threat-Detector/
 └── README.md             # Project documentation
 
 
-
-Bash: streamlit run app.py
 
 
 
