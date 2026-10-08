@@ -125,7 +125,7 @@ else:
             label = classification_result["label"].lower()
             score = classification_result["score"]
 
-        # If model flags it as an injection/threat (usually labeled as 'INJECTION' or 'POSITIVE' depending on the model card)
+        # If model flags it as an injection/threat 
         if "injection" in label or (
             "POSITIVE" in label and score > 0.85
         ):  # Adjust threshold as needed
@@ -139,7 +139,7 @@ else:
             st.rerun()
 
         # Safe Request Response
-        response = f"✅ **Security Check Passed:** Input verified safely by Layer 1 and Layer 2.\n\nEcho/Response: I have received your secure query: *{user_prompt}*"
+        response = f" **Security Check Passed:** Input verified safely by Layer 1 and Layer 2.\n\nEcho/Response: I have received your secure query: *{user_prompt}*"
         with st.chat_message("assistant"):
             st.markdown(response)
         st.session_state.messages.append(
