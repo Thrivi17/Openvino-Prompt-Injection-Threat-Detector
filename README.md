@@ -40,7 +40,6 @@ cd Openvino-Prompt-Injection-Threat-Detector
 Bash: python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
----
 
 ##  Project Structure
 
